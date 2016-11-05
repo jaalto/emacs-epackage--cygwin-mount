@@ -1,0 +1,21 @@
+Package: cygwin-mount
+Section: extensions
+License: GPL-2+
+Depends: emacs (>= 23)
+Status: unmaintained stable
+Archive:
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Eric Hanchrow <offby1@blarg.net>
+Upstream-Bugs:
+Homepage:
+Wiki: https://www.emacswiki.org/emacs/CygwinMountVersions
+Commentary:
+Info:
+Description: Teach EMACS about cygwin styles and mount points
+ Add support for Cygwin /cygdrive/DRIVE/path/name in NTEmacs.
+ Knows also about Cygwin mount points so that
+ commands like C-x C-f /usr/bin/FILE work.
+ .
+ Note: 2016-11-05 code hasn't been updated since 2014.
